@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~4Uh0Xaxb#0ajN9QMZI-hxWAnBNrjJx-Ey015Mto7iLx0Bq860Zx0",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~MdRSALSA#tx8OCJW8SMTQjtMgOwPhSIFh5jaaHemxlB2yVrvS1kg",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "truee",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/nzc6xk.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || "🥶",
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍-𝐌𝐃",
 // add bot name here for menu
@@ -63,7 +63,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // public/private/inbox/group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // kick user if share link 
@@ -75,7 +75,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // false if want private mode
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // show typing status   
